@@ -25,8 +25,8 @@ void setup() {
   client.println("AUTH LOGIN");
   client.println("aGF5YWxpbm90QGhvdG1haWwuY29t"); //Type mail@adresiniz.com encode edilmiş hali
   client.println("RGRhbm90ZWxsMTIz"); //Password kısmınıda encode etmelisiniz
-  client.println("MAIL FROM:hayalinot@hotmail.com"); //Karşı tarafta gözükmesini iztediğiniz adres
-  client.println("RCPT TO:htcbtkn15@gmail.com"); //Mailin gideceği adres
+  client.println("MAIL FROM:mail"); //Karşı tarafta gözükmesini iztediğiniz adres
+  client.println("RCPT TO:mail"); //Mailin gideceği adres
   client.println("DATA");
   client.println("from:mail");
   client.println("to:mail");
