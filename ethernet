@@ -28,8 +28,8 @@ void setup() {
   client.println("MAIL FROM:hayalinot@hotmail.com"); //Karşı tarafta gözükmesini iztediğiniz adres
   client.println("RCPT TO:htcbtkn15@gmail.com"); //Mailin gideceği adres
   client.println("DATA");
-  client.println("from:hayalinot@hotmail.com");
-  client.println("to:htcbtkn15@gmail.com");
+  client.println("from:mail");
+  client.println("to:mail");
   client.println("Konu: Arduino Ethernet shild test mail");
   client.println();
   client.println("Mesajınızın ilk satırı.");
